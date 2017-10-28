@@ -269,6 +269,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="zat-wl-c0f" kind="presentation" id="hD8-Ma-uR4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -283,6 +286,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="-630"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lab-yh-m76">
+            <objects>
+                <viewController id="zat-wl-c0f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="19G-K0-7fd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UX7-n8-y46">
+                                <rect key="frame" x="133" y="132" width="54" height="30"/>
+                                <state key="normal" title="Español"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh4-5D-zui">
+                                <rect key="frame" x="135" y="200" width="50" height="30"/>
+                                <state key="normal" title="English"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qh4-5D-zui" firstAttribute="centerX" secondItem="SEU-8I-jXu" secondAttribute="centerX" id="Nlv-p4-6qF"/>
+                            <constraint firstItem="UX7-n8-y46" firstAttribute="centerX" secondItem="SEU-8I-jXu" secondAttribute="centerX" id="Y2r-vO-PLz"/>
+                            <constraint firstItem="qh4-5D-zui" firstAttribute="top" secondItem="UX7-n8-y46" secondAttribute="bottom" constant="38" id="pKP-8T-dAy"/>
+                            <constraint firstItem="UX7-n8-y46" firstAttribute="top" secondItem="SEU-8I-jXu" secondAttribute="top" constant="112" id="vjY-dG-E5i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SEU-8I-jXu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nq2-Ws-AjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="150"/>
         </scene>
     </scenes>
 </document>
