@@ -92,6 +92,9 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="Bfa-tn-CuD" id="F0I-yy-org"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
@@ -158,7 +161,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="JEX-9P-axG" kind="showDetail" id="oYw-na-jQT"/>
+                                            <segue destination="JEX-9P-axG" kind="showDetail" identifier="abstraction" id="oYw-na-jQT"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="87K-hW-q2N" style="IBUITableViewCellStyleDefault" id="9xP-8i-OYa">
@@ -178,6 +181,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="JEX-9P-axG" kind="showDetail" id="Ush-ow-h7a"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Og6-Fk-tJU" style="IBUITableViewCellStyleDefault" id="dl0-5C-2Rs">
                                         <rect key="frame" x="0.0" y="132" width="320" height="44"/>
@@ -322,4 +328,7 @@
             <point key="canvasLocation" x="709" y="150"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oYw-na-jQT"/>
+    </inferredMetricsTieBreakers>
 </document>
