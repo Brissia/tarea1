@@ -181,9 +181,6 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <segue destination="JEX-9P-axG" kind="showDetail" id="Ush-ow-h7a"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Og6-Fk-tJU" style="IBUITableViewCellStyleDefault" id="dl0-5C-2Rs">
                                         <rect key="frame" x="0.0" y="132" width="320" height="44"/>
@@ -328,7 +325,4 @@
             <point key="canvasLocation" x="709" y="150"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="oYw-na-jQT"/>
-    </inferredMetricsTieBreakers>
 </document>

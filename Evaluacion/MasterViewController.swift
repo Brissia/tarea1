@@ -19,12 +19,12 @@ class MasterViewController: UITableViewController {
     
     let contentsAbstractionEn = [
         "title" : "Abstraction",
-        "image" : "abstraction",
+        "image" : "abstraction_en",
         "body" : "bla bla bla",
         "link" : "abstr.com"]
     let contentsAbstractionSp = [
         "title" : "Abstraction",
-        "image" : "abstraction",
+        "image" : "abstraction_sp",
         "body" : "bla bla bla",
         "link" : "abstr.com"]
     
